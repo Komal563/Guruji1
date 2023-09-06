@@ -27,11 +27,11 @@ import re
 import os
 import io
 
-API_ID = 24250238
-API_HASH = "cb3f118ce5553dc140127647edcf3720"
-BOT_TOKEN = "5900432090:AAF2LQTDAdZhfJP_05MjayOmWfuVpeyIdh8"
-AUTH_USERS = 6175650047
-sudo_users = [6175650047]
+API_ID = 9816169
+API_HASH = "036f0ec50e2a1f943e55a71a7c3feffb"
+BOT_TOKEN = "6496204791:AAEnwkdPmvO-jpL-Or0GcMFhG8c4_alWsS8"
+AUTH_USERS = 6465999303
+sudo_users = [6465999303]
 bot = Client(
     "bot",
     bot_token=BOT_TOKEN,
