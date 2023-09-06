@@ -30,11 +30,10 @@ API_HASH="16144a759c3872187bb9663e66036685"
 
 bot = Client(
     "bot",
-    bot_token=os.environ.get("6496204791:AAEnwkdPmvO-jpL-Or0GcMFhG8c4_alWsS8"),
-    api_id=int(os.environ.get("9816169")),
-    api_hash=os.environ.get("036f0ec50e2a1f943e55a71a7c3feffb")
-)
-
+    bot_token=os.environ.get("BOT_TOKEN"),
+    api_id=int(os.environ.get("API_ID")),
+    api_hash=os.environ.get("API_HASH")
+    
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text("Hello im txt file downloader\nPress /pyro to download links listed in a txt file in the format **Name:link**\n\nBot made by NOOB CREATOR BOY")
