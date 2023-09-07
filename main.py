@@ -23,16 +23,16 @@ import sys
 import re
 import os
 
-API_ID="28715814"
-BOT_TOKEN="6369481094:AAGbL35ASqPlst9MtSJr-bqFRmjvPB9-p6M"
-API_HASH="16144a759c3872187bb9663e66036685"
+API_ID="9816169"
+BOT_TOKEN="6496204791:AAEnwkdPmvO-jpL-Or0GcMFhG8c4_alWsS8"
+API_HASH="036f0ec50e2a1f943e55a71a7c3feffb"
 
 
 bot = Client(
     "bot",
-    bot_token=os.environ.get("BOT_TOKEN"),
-    api_id=int(os.environ.get("API_ID")),
-    api_hash=os.environ.get("API_HASH")
+    bot_token=os.environ.get("6496204791:AAEnwkdPmvO-jpL-Or0GcMFhG8c4_alWsS8"),
+    api_id=int(os.environ.get("9816169")),
+    api_hash=os.environ.get("036f0ec50e2a1f943e55a71a7c3feffb")
 )
     
 @bot.on_message(filters.command(["start"]))
