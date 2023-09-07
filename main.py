@@ -30,9 +30,9 @@ API_HASH="036f0ec50e2a1f943e55a71a7c3feffb"
 
 bot = Client(
     "bot",
-    bot_token=os.environ.get("6496204791:AAEnwkdPmvO-jpL-Or0GcMFhG8c4_alWsS8"),
-    api_id=int(os.environ.get("9816169")),
-    api_hash=os.environ.get("036f0ec50e2a1f943e55a71a7c3feffb")
+    bot_token="6496204791:AAEnwkdPmvO-jpL-Or0GcMFhG8c4_alWsS8",
+    api_id="9816169",
+    api_hash="036f0ec50e2a1f943e55a71a7c3feffb"
 )
     
 @bot.on_message(filters.command(["start"]))
